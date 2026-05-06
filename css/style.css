@@ -241,6 +241,16 @@ ul {
   text-transform: uppercase;
 }
 
+.profile-img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  border-radius: 2px;
+  filter: grayscale(15%);
+}
+
 .about-text h2 {
   font-family: var(--font-serif);
   font-size: clamp(22px, 3vw, 32px);
