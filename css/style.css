@@ -326,6 +326,16 @@ ul {
   margin-bottom: 28px;
 }
 
+.card-address {
+  font-size: 13px;
+  font-style: normal;
+  color: var(--gray-500);
+  line-height: 1.8;
+  margin-bottom: 20px;
+  border-left: 2px solid var(--gray-100);
+  padding-left: 12px;
+}
+
 .card-link {
   font-size: 13px;
   letter-spacing: 0.05em;
